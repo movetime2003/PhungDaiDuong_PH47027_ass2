@@ -1,0 +1,84 @@
+/* header */
+li {
+    margin: 0 70px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.navbar {
+    background-color: #003C71;
+}
+
+/* -------------------- */
+@media screen and (min-width: 240px) {
+    .input-group {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .input-group {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+/* ---- */
+.btn-where {
+    background-color: #003C71;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* -- */
+
+section {
+    text-align: center;
+}
+
+.south {
+    margin-top: 50px;
+}
+
+/* HOVER */
+.text:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* ------IMAGE */
+.image {
+    overflow: hidden;
+}
+
+.image img {
+    transition: all 0.8s ease;
+    height: 200px;
+    width: 100%;
+}
+
+.image:hover img {
+    border: 1px dotted red;
+    cursor: pointer;
+    transform: scale(1.5, 1.5);
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #f1f1f1;
+    display: flex;
+    margin-top: 40px;
+    border: 1px solid #f1f1f1;
+}

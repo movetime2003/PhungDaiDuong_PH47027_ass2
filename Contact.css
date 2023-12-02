@@ -1,0 +1,108 @@
+/* header */
+li {
+    margin: 0 70px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.navbar {
+    background-color: #003C71;
+}
+
+/* ---------- */
+.container {
+    margin-top: 50px;
+}
+
+.txtArea {
+    padding-bottom: 200px
+}
+
+.ten {
+    margin-left: 355px;
+}
+
+.thongtin div input {
+    border: 4px solid #BCD9FF;
+    border-radius: 10px;
+}
+
+.thongtin2 {
+    border-radius: 40px;
+    border: 4px solid #BCD9FF;
+    text-align: center;
+    height: 500px;
+}
+
+.hanoi {
+    margin-top: 40px;
+}
+
+
+svg {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media screen and (min-width: 240px) {
+    .submit button {
+        width: 25%;
+        margin: 10px 0 50px 200px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .submit button {
+        width: 20%;
+        margin-top: 20px;
+        margin-left: 280px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .submit button {
+        width: 20%;
+        margin-top: 20px;
+        margin-left: 300px;
+    }
+}
+
+
+/* GOOGLE MAP */
+.google-map {
+    overflow: hidden;
+    padding-bottom: 20%;
+    position: relative;
+    height: 0;
+    margin-top: 50px;
+}
+
+.google-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: #f1f1f1;
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #f1f1f1;
+}
